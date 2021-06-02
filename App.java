@@ -2,9 +2,10 @@
 public class App {
 
 	public static void main(String[] args) {
-	
-		ausgabe("hu");
-	
+
+		Test test = new Test(); 
+		test.setTestStr("Hi");
+		ausgabe(test.getTestStr()); 
 	}
 	
 	
